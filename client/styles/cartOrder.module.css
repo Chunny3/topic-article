@@ -1,0 +1,320 @@
+.top {
+    display: flex;
+    align-items: center;
+    gap: 298px;
+    align-self: stretch;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gradation {
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.round {
+    display: flex;
+    width: 30px;
+    padding: 3px 10px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 24px;
+    background: var(--primary-04, #9DB8AF);
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.cart-title {
+    display: flex;
+    width: 886px;
+    padding: var(--card-padding-ss, 10px) var(--card-x-padding-lg, 48px);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid var(--color-gray-200, #E4E4E4);
+    background: #FFF;
+    box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.choose-all {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.choose-all input {
+    width: 15px;
+    height: 15px;
+    aspect-ratio: 1/1;
+    border-radius: 3px;
+    border: 1px solid var(--color-gray-800, #6A6A6A);
+}
+
+.cart-title button {
+    display: flex;
+    padding: 10px var(--card-padding-sm, 20px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background: var(--primary-05, #588072);
+}
+
+.cart-main {
+    display: flex;
+    width: 886px;
+    padding: var(--card-y-padding, 32px) var(--card-x-padding-lg, 48px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--color-gray-200, #E4E4E4);
+    background: var(--white, #FFF);
+    box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cart-card {
+    display: flex;
+    padding: var(--card-padding-sm, 20px) 0;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 2px solid var(--color-gray-200, #E4E4E4);
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-left input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-left Image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    object-fit: cover;
+}
+
+.card-title {
+    display: flex;
+    width: 265px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 73px;
+}
+
+.card-title h6 {
+    display: flex;
+    height: 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--color-gray-900, #494949);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-title p {
+    align-self: stretch;
+}
+
+.card-right {
+    display: flex;
+    width: 122px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-num {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.quantity {
+    display: flex;
+    padding: 2px 1px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.quantity.minus {
+    display: flex;
+    width: 30px;
+    height: 35px;
+    padding: 17px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-05, #588072);
+}
+
+.quantity.plus {
+    display: flex;
+    width: 30px;
+    height: 35px;
+    padding: 25px 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-05, #588072);
+}
+
+.quantity.num {
+    display: flex;
+    width: 60px;
+    height: 35px;
+    padding: 10px 33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side {
+    display: flex;
+    width: 504px;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 15px;
+    background: var(--secondary-3, #F0D2BC);
+    box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.right-side.amount-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.amount-list.pAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.amount-list.choose-cp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.amount-list.choose-cp.button {
+    display: flex;
+    padding: 5px var(--card-padding-sm, 20px);
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 10px;
+    border: 2px solid var(--color-gray-600, #ABABAB);
+    background: var(--white, #FFF);
+    box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.amount-list.cp-discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.amount-list.line {
+    width: 408px;
+    height: 1px;
+    background: #8B8B8B;
+}
+
+.amount-list.fee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.amount-list.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.nextOrBack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.nextOrBack.next {
+    display: flex;
+    height: 51px;
+    padding: 0 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--primary-01, #6F9B8C);
+}
+
+.nextOrBack.back {
+    display: flex;
+    height: 51px;
+    padding: 0 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--primary-01, #6F9B8C);
+}
