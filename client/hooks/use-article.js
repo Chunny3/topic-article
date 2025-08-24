@@ -9,7 +9,7 @@ export function ArticleProvider({children}){
     
     
     return(
-        <ArticleContext.Provider>
+        <ArticleContext.Provider value={{}}>
             {children}
         </ArticleContext.Provider>
     )
