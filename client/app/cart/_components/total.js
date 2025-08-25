@@ -2,7 +2,7 @@
 
 import GreenButton from "./greenButton"
 import WhiteButton from "./whiteButton"
-import "@/styles/total.css";
+import "@/styles/cart/total.css";
 
 export default function Total({ type }) {
     if (type === "order") {

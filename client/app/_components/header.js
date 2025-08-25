@@ -7,7 +7,7 @@ import "@/styles/header.css";
 
 export default function Header() {
     return (
-        <div className="container-fluid header">
+        <div className="container-fluid header" style={{padding: "0 64px"}}>
             <div className="frame">
                 {/* <Image src="" alt="" /> */}
                 <div className="menu">

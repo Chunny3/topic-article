@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import "@/styles/cartCard.css"
+import "@/styles/cart/cartCard.css";
 
 export default function CartCard({ type }) {
     if (type === "order") {

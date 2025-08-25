@@ -1,11 +1,10 @@
 "use client"
 
 import Image from "next/image";
-import "@/styles/articleIndex.css";
-import SideBar from "../_components/sideBar";
-import ArticleCard from "../_components/articleCard";
-import Pagination from "../_components/pagination";
-
+import "@/styles/article/articleIndex.css";
+import SideBar from "./_components/sideBar";
+import ArticleCard from "./_components/articleCard";
+import Pagination from "./_components/pagination";
 
 export default function ArticlePage() {
     return (

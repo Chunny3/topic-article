@@ -1,8 +1,9 @@
 "use client"
 
-import CartCard from "@/app/_components/cartCard"
-import Total from "@/app/_components/total"
-import Image from "next/image"
+import CartCard from "../_components/cartCard";
+import Total from "../_components/total";
+import "@/styles/cart/cartOrder.css"
+import Image from "next/image";
 
 export default function CartOrderPage() {
     return (

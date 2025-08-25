@@ -1,10 +1,10 @@
 "use client"
 
-import CartCard from "@/app/_components/cartCard"
-import GreenButton from "@/app/_components/greenButton";
-import Total from "@/app/_components/total"
-import WhiteButton from "@/app/_components/whiteButton";
-import "@/styles/cartFin.css";
+import CartCard from "../_components/cartCard";
+import GreenButton from "../_components/greenButton";
+import Total from "../_components/total";
+import WhiteButton from "../_components/whiteButton";
+import "@/styles/cart/cartFin.css";
 
 export default function CartFinPage() {
     return (

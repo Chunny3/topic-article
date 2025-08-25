@@ -4,9 +4,6 @@ import Script from "next/script";
 import { ArticleProvider } from "@/hooks/use-article";
 import "@/styles/basic.css";
 import "@/styles/reset.css"
-import "@/styles/articleIndex.css";
-import "@/styles/cartOrder.css";
-import "@/styles/button.css";
 import Header from "./_components/header";
 
 

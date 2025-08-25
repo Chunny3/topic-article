@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import "@/styles/articleIndex.css";
+import "@/styles/article/articleIndex.css";
 
 export default function ArticleCard() {
     return (

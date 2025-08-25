@@ -1,7 +1,7 @@
 "use client"
 
 // import { useArticle } from "@/hooks/use-article";
-import "@/styles/sideBar.css";
+import "@/styles/article/sideBar.css";
 
 export default function SideBar() {
     return (

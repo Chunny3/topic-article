@@ -1,14 +1,13 @@
 "use client"
 
-import CartCard from "@/app/_components/cartCard"
-import Total from "@/app/_components/total"
-import ContactPerson from "@/app/_components/contactPerson";
-import Image from "next/image"
-import Delivery from "@/app/_components/delivery";
-import Payment from "@/app/_components/payment";
+import Total from "../_components/total";
+import ContactPerson from "../_components/contactPerson";
+import Image from "next/image";
+import Delivery from "../_components/delivery";
+import Payment from "../_components/payment";
 import "@/styles/contactPerson.css";
-import "@/styles/delivery.css";
-import "@/styles/payment.css";
+import "@/styles/cart/delivery.css";
+import "@/styles/cart/payment.css";
 
 export default function CartDetailPage() {
     return (
